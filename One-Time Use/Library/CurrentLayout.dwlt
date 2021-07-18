@@ -1,0 +1,1206 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12004, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PixelRect:
+    serializedVersion: 2
+    x: -1920
+    y: 43
+    width: 1920
+    height: 997
+  m_ShowMode: 4
+  m_Title: 
+  m_RootView: {fileID: 4}
+  m_MinSize: {x: 950, y: 544}
+  m_MaxSize: {x: 10000, y: 10000}
+--- !u!114 &2
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1025
+    height: 564
+  m_MinSize: {x: 0, y: 0}
+  m_MaxSize: {x: 0, y: 0}
+  vertical: 0
+  controlID: 148
+--- !u!114 &3
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1025
+    height: 564
+  m_MinSize: {x: 0, y: 0}
+  m_MaxSize: {x: 0, y: 0}
+  vertical: 0
+  controlID: 5446
+--- !u!114 &4
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12008, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 5}
+  - {fileID: 7}
+  - {fileID: 6}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1920
+    height: 997
+  m_MinSize: {x: 950, y: 300}
+  m_MaxSize: {x: 10000, y: 10000}
+--- !u!114 &5
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12011, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1920
+    height: 30
+  m_MinSize: {x: 0, y: 0}
+  m_MaxSize: {x: 0, y: 0}
+  m_LastLoadedLayoutName: 
+--- !u!114 &6
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12042, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 977
+    width: 1920
+    height: 20
+  m_MinSize: {x: 0, y: 0}
+  m_MaxSize: {x: 0, y: 0}
+--- !u!114 &7
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 8}
+  - {fileID: 13}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 30
+    width: 1920
+    height: 947
+  m_MinSize: {x: 679, y: 494}
+  m_MaxSize: {x: 14002, y: 14044}
+  vertical: 0
+  controlID: 58
+--- !u!114 &8
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 9}
+  - {fileID: 12}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1368
+    height: 947
+  m_MinSize: {x: 404, y: 494}
+  m_MaxSize: {x: 10002, y: 14044}
+  vertical: 1
+  controlID: 59
+--- !u!114 &9
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 10}
+  - {fileID: 11}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1368
+    height: 575
+  m_MinSize: {x: 404, y: 222}
+  m_MaxSize: {x: 8004, y: 4022}
+  vertical: 0
+  controlID: 60
+--- !u!114 &10
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 398
+    height: 575
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 17}
+  m_Panes:
+  - {fileID: 17}
+  - {fileID: 14}
+  m_Selected: 0
+  m_LastSelected: 1
+--- !u!114 &11
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 398
+    y: 0
+    width: 970
+    height: 575
+  m_MinSize: {x: 204, y: 222}
+  m_MaxSize: {x: 4004, y: 4022}
+  m_ActualView: {fileID: 18}
+  m_Panes:
+  - {fileID: 18}
+  - {fileID: 16}
+  - {fileID: 15}
+  - {fileID: 19}
+  m_Selected: 0
+  m_LastSelected: 1
+--- !u!114 &12
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 575
+    width: 1368
+    height: 372
+  m_MinSize: {x: 232, y: 272}
+  m_MaxSize: {x: 10002, y: 10022}
+  m_ActualView: {fileID: 20}
+  m_Panes:
+  - {fileID: 20}
+  - {fileID: 21}
+  - {fileID: 22}
+  m_Selected: 0
+  m_LastSelected: 1
+--- !u!114 &13
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 1368
+    y: 0
+    width: 552
+    height: 947
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 23}
+  m_Panes:
+  - {fileID: 23}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &14
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12079, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 390, y: 390}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Lighting
+    m_Image: {fileID: 8394858894532624064, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: -1920
+    y: 73
+    width: 398
+    height: 556
+  m_ViewDataDictionary: {fileID: 0}
+--- !u!114 &15
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb55afc2c109f42f2af37941a8c9300e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 600, y: 300}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: _PlayerControls (Input Actions)
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: -1522
+    y: 73
+    width: 968
+    height: 556
+  m_ViewDataDictionary: {fileID: 0}
+  m_ActionMapsTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 22e70442
+    m_LastClickedID: 1107617570
+    m_ExpandedIDs: 00000000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: _userInterface
+      m_OriginalName: _userInterface
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: -1038968921
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 0
+      m_IsRenamingFilename: 0
+      m_ClientGUIView: {fileID: 11}
+    m_SearchString: 
+  m_ActionsTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 65c2d17e
+    m_LastClickedID: 2127676005
+    m_ExpandedIDs: 5ab2c889400460a7a79712c2f8b590d05bd23ed842ebc1e9185e5505441d890a98f4151c22e70442ef50534aa004c46c
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 0
+      m_ClientGUIView: {fileID: 11}
+    m_SearchString: 
+  m_ControlPickerViewState:
+    m_AdvancedDropdownState:
+      states:
+      - itemId: 371857150
+        selectedIndex: 4
+        scroll: {x: 0, y: 0}
+      - itemId: 403810634
+        selectedIndex: 0
+        scroll: {x: 0, y: 0}
+      - itemId: 300744546
+        selectedIndex: 0
+        scroll: {x: 0, y: 0}
+      - itemId: -376880915
+        selectedIndex: 0
+        scroll: {x: 0, y: 0}
+      - itemId: -1542029941
+        selectedIndex: 32
+        scroll: {x: 0, y: 562}
+      - itemId: -630248049
+        selectedIndex: 3
+        scroll: {x: 0, y: 94.5}
+      - itemId: 806481549
+        selectedIndex: -1
+        scroll: {x: 0, y: 0}
+      - itemId: 1024962821
+        selectedIndex: -1
+        scroll: {x: 0, y: 0}
+      - itemId: -1758958145
+        selectedIndex: -1
+        scroll: {x: 0, y: 0}
+    m_ManualPathEditMode: 0
+  m_ActionAssetManager:
+    m_AssetObjectForEditing: {fileID: 0}
+    m_ImportedAssetObject: {fileID: -944628639613478452, guid: 7d557f6b37166ab4a87fb0c2b6bf63ba,
+      type: 3}
+    m_AssetGUID: 7d557f6b37166ab4a87fb0c2b6bf63ba
+    m_ImportedAssetJson: "{\n    \"name\": \"_InputAction\",\n    \"maps\": [\n        {\n
+      \           \"name\": \"_userActions\",\n            \"id\": \"2f01a4fb-6505-43ef-a4c4-0842ef097b36\",\n
+      \           \"actions\": [\n                {\n                    \"name\":
+      \"_Move\",\n                    \"type\": \"Button\",\n                    \"id\":
+      \"cbb65d4f-1f3f-4024-bfea-de5f7934052f\",\n                    \"expectedControlType\":
+      \"Button\",\n                    \"processors\": \"\",\n                    \"interactions\":
+      \"\"\n                },\n                {\n                    \"name\": \"_Interact\",\n
+      \                   \"type\": \"Button\",\n                    \"id\": \"4bea1938-34bf-473b-9f43-7a9e2200be1b\",\n
+      \                   \"expectedControlType\": \"Button\",\n                    \"processors\":
+      \"\",\n                    \"interactions\": \"\"\n                },\n                {\n
+      \                   \"name\": \"_Pause\",\n                    \"type\": \"Button\",\n
+      \                   \"id\": \"b5adf790-823d-426e-a664-e7ccc21dc606\",\n                    \"expectedControlType\":
+      \"Button\",\n                    \"processors\": \"\",\n                    \"interactions\":
+      \"\"\n                },\n                {\n                    \"name\": \"_Jump\",\n
+      \                   \"type\": \"Button\",\n                    \"id\": \"1163af39-98a2-441f-8a8a-602f8fd2d164\",\n
+      \                   \"expectedControlType\": \"Button\",\n                    \"processors\":
+      \"\",\n                    \"interactions\": \"\"\n                }\n            ],\n
+      \           \"bindings\": [\n                {\n                    \"name\":
+      \"2D Vector\",\n                    \"id\": \"a0ac1b1a-ddff-4bff-b371-372b05785e0a\",\n
+      \                   \"path\": \"2DVector\",\n                    \"interactions\":
+      \"\",\n                    \"processors\": \"\",\n                    \"groups\":
+      \"\",\n                    \"action\": \"_Move\",\n                    \"isComposite\":
+      true,\n                    \"isPartOfComposite\": false\n                },\n
+      \               {\n                    \"name\": \"up\",\n                    \"id\":
+      \"c824fffa-16c7-41e3-b0da-76dea9775a71\",\n                    \"path\": \"<Keyboard>/upArrow\",\n
+      \                   \"interactions\": \"\",\n                    \"processors\":
+      \"\",\n                    \"groups\": \"\",\n                    \"action\":
+      \"_Move\",\n                    \"isComposite\": false,\n                    \"isPartOfComposite\":
+      true\n                },\n                {\n                    \"name\": \"down\",\n
+      \                   \"id\": \"ec7e5eab-2a5b-4293-826a-4abe677fc93f\",\n                    \"path\":
+      \"<Keyboard>/downArrow\",\n                    \"interactions\": \"\",\n                    \"processors\":
+      \"\",\n                    \"groups\": \"\",\n                    \"action\":
+      \"_Move\",\n                    \"isComposite\": false,\n                    \"isPartOfComposite\":
+      true\n                },\n                {\n                    \"name\": \"left\",\n
+      \                   \"id\": \"91690a75-1c50-45a6-96b7-2068738e5062\",\n                    \"path\":
+      \"<Keyboard>/leftArrow\",\n                    \"interactions\": \"\",\n                    \"processors\":
+      \"\",\n                    \"groups\": \"\",\n                    \"action\":
+      \"_Move\",\n                    \"isComposite\": false,\n                    \"isPartOfComposite\":
+      true\n                },\n                {\n                    \"name\": \"right\",\n
+      \                   \"id\": \"8e6fa9f6-c4f1-4f46-a2e9-c6ad2fdc2b1c\",\n                    \"path\":
+      \"<Keyboard>/rightArrow\",\n                    \"interactions\": \"\",\n                    \"processors\":
+      \"\",\n                    \"groups\": \"\",\n                    \"action\":
+      \"_Move\",\n                    \"isComposite\": false,\n                    \"isPartOfComposite\":
+      true\n                },\n                {\n                    \"name\": \"\",\n
+      \                   \"id\": \"ef7cb77a-408f-463b-a36a-3234d1955ada\",\n                    \"path\":
+      \"<Keyboard>/e\",\n                    \"interactions\": \"\",\n                    \"processors\":
+      \"\",\n                    \"groups\": \"\",\n                    \"action\":
+      \"_Interact\",\n                    \"isComposite\": false,\n                    \"isPartOfComposite\":
+      false\n                },\n                {\n                    \"name\":
+      \"2D Vector\",\n                    \"id\": \"5607f340-78cf-418a-b322-a780a574e890\",\n
+      \                   \"path\": \"2DVector\",\n                    \"interactions\":
+      \"\",\n                    \"processors\": \"\",\n                    \"groups\":
+      \"\",\n                    \"action\": \"_Move\",\n                    \"isComposite\":
+      true,\n                    \"isPartOfComposite\": false\n                },\n
+      \               {\n                    \"name\": \"up\",\n                    \"id\":
+      \"50233b71-cb3a-4fc7-8384-ed3c3f9617cc\",\n                    \"path\": \"<Keyboard>/w\",\n
+      \                   \"interactions\": \"\",\n                    \"processors\":
+      \"\",\n                    \"groups\": \"\",\n                    \"action\":
+      \"_Move\",\n                    \"isComposite\": false,\n                    \"isPartOfComposite\":
+      true\n                },\n                {\n                    \"name\": \"down\",\n
+      \                   \"id\": \"f014bfb2-3971-43a0-a7cc-c31bdfc47c21\",\n                    \"path\":
+      \"<Keyboard>/s\",\n                    \"interactions\": \"\",\n                    \"processors\":
+      \"\",\n                    \"groups\": \"\",\n                    \"action\":
+      \"_Move\",\n                    \"isComposite\": false,\n                    \"isPartOfComposite\":
+      true\n                },\n                {\n                    \"name\": \"left\",\n
+      \                   \"id\": \"7e9707a5-5865-4ea6-9999-7c1837084435\",\n                    \"path\":
+      \"<Keyboard>/a\",\n                    \"interactions\": \"\",\n                    \"processors\":
+      \"\",\n                    \"groups\": \"\",\n                    \"action\":
+      \"_Move\",\n                    \"isComposite\": false,\n                    \"isPartOfComposite\":
+      true\n                },\n                {\n                    \"name\": \"right\",\n
+      \                   \"id\": \"8c3e9921-a66f-45ae-a411-40851fa0e420\",\n                    \"path\":
+      \"<Keyboard>/d\",\n                    \"interactions\": \"\",\n                    \"processors\":
+      \"\",\n                    \"groups\": \"\",\n                    \"action\":
+      \"_Move\",\n                    \"isComposite\": false,\n                    \"isPartOfComposite\":
+      true\n                },\n                {\n                    \"name\": \"\",\n
+      \                   \"id\": \"a7373363-b2c1-4217-9b48-589dbae6be15\",\n                    \"path\":
+      \"<Keyboard>/escape\",\n                    \"interactions\": \"\",\n                    \"processors\":
+      \"\",\n                    \"groups\": \"\",\n                    \"action\":
+      \"_Pause\",\n                    \"isComposite\": false,\n                    \"isPartOfComposite\":
+      false\n                },\n                {\n                    \"name\":
+      \"\",\n                    \"id\": \"5c188f37-35c9-4d09-bd06-176b25327e5b\",\n
+      \                   \"path\": \"<Keyboard>/space\",\n                    \"interactions\":
+      \"\",\n                    \"processors\": \"\",\n                    \"groups\":
+      \"\",\n                    \"action\": \"_Jump\",\n                    \"isComposite\":
+      false,\n                    \"isPartOfComposite\": false\n                }\n
+      \           ]\n        },\n        {\n            \"name\": \"_userInterface\",\n
+      \           \"id\": \"1effd036-18ed-47a4-8be9-c44f74dfa335\",\n            \"actions\":
+      [\n                {\n                    \"name\": \"_Move\",\n                    \"type\":
+      \"Button\",\n                    \"id\": \"1ac6829d-25a1-4fd6-b11b-3a261956f2c4\",\n
+      \                   \"expectedControlType\": \"Button\",\n                    \"processors\":
+      \"\",\n                    \"interactions\": \"\"\n                },\n                {\n
+      \                   \"name\": \"_Confirm\",\n                    \"type\": \"Button\",\n
+      \                   \"id\": \"a6fb72e4-196e-4de5-85e3-1fc2c1f4ad8c\",\n                    \"expectedControlType\":
+      \"Button\",\n                    \"processors\": \"\",\n                    \"interactions\":
+      \"\"\n                },\n                {\n                    \"name\": \"_Cancel\",\n
+      \                   \"type\": \"Button\",\n                    \"id\": \"96543736-8628-4616-b06a-9b8850b5bb58\",\n
+      \                   \"expectedControlType\": \"Button\",\n                    \"processors\":
+      \"\",\n                    \"interactions\": \"\"\n                }\n            ],\n
+      \           \"bindings\": [\n                {\n                    \"name\":
+      \"\",\n                    \"id\": \"92e94585-dfaa-403e-90e0-4e4a281b45f4\",\n
+      \                   \"path\": \"<Keyboard>/e\",\n                    \"interactions\":
+      \"\",\n                    \"processors\": \"\",\n                    \"groups\":
+      \"\",\n                    \"action\": \"_Confirm\",\n                    \"isComposite\":
+      false,\n                    \"isPartOfComposite\": false\n                },\n
+      \               {\n                    \"name\": \"2D Vector\",\n                    \"id\":
+      \"59dfba00-45ca-4ed2-8ed8-007df9faa04a\",\n                    \"path\": \"2DVector\",\n
+      \                   \"interactions\": \"\",\n                    \"processors\":
+      \"\",\n                    \"groups\": \"\",\n                    \"action\":
+      \"_Move\",\n                    \"isComposite\": true,\n                    \"isPartOfComposite\":
+      false\n                },\n                {\n                    \"name\":
+      \"up\",\n                    \"id\": \"8f3a96b0-0350-4af6-9fa7-86eefaa848e3\",\n
+      \                   \"path\": \"<Keyboard>/upArrow\",\n                    \"interactions\":
+      \"\",\n                    \"processors\": \"\",\n                    \"groups\":
+      \"\",\n                    \"action\": \"_Move\",\n                    \"isComposite\":
+      false,\n                    \"isPartOfComposite\": true\n                },\n
+      \               {\n                    \"name\": \"down\",\n                    \"id\":
+      \"4721daa0-f587-4545-9c54-ce645c944af6\",\n                    \"path\": \"<Keyboard>/downArrow\",\n
+      \                   \"interactions\": \"\",\n                    \"processors\":
+      \"\",\n                    \"groups\": \"\",\n                    \"action\":
+      \"_Move\",\n                    \"isComposite\": false,\n                    \"isPartOfComposite\":
+      true\n                },\n                {\n                    \"name\": \"left\",\n
+      \                   \"id\": \"d16bc8f2-5092-4afb-813a-a91ab0d5675b\",\n                    \"path\":
+      \"<Keyboard>/leftArrow\",\n                    \"interactions\": \"\",\n                    \"processors\":
+      \"\",\n                    \"groups\": \"\",\n                    \"action\":
+      \"_Move\",\n                    \"isComposite\": false,\n                    \"isPartOfComposite\":
+      true\n                },\n                {\n                    \"name\": \"right\",\n
+      \                   \"id\": \"015c997d-8b48-4f20-97a8-08beecc736d6\",\n                    \"path\":
+      \"<Keyboard>/rightArrow\",\n                    \"interactions\": \"\",\n                    \"processors\":
+      \"\",\n                    \"groups\": \"\",\n                    \"action\":
+      \"_Move\",\n                    \"isComposite\": false,\n                    \"isPartOfComposite\":
+      true\n                },\n                {\n                    \"name\": \"2D
+      Vector\",\n                    \"id\": \"f3e04504-2680-410e-898a-72f40cce694a\",\n
+      \                   \"path\": \"2DVector\",\n                    \"interactions\":
+      \"\",\n                    \"processors\": \"\",\n                    \"groups\":
+      \"\",\n                    \"action\": \"_Move\",\n                    \"isComposite\":
+      true,\n                    \"isPartOfComposite\": false\n                },\n
+      \               {\n                    \"name\": \"up\",\n                    \"id\":
+      \"82039c7a-6d56-4959-9d9d-a8255be8df6b\",\n                    \"path\": \"<Keyboard>/w\",\n
+      \                   \"interactions\": \"\",\n                    \"processors\":
+      \"\",\n                    \"groups\": \"\",\n                    \"action\":
+      \"_Move\",\n                    \"isComposite\": false,\n                    \"isPartOfComposite\":
+      true\n                },\n                {\n                    \"name\": \"down\",\n
+      \                   \"id\": \"b1c60117-2af9-4b3e-99cf-25e829260dba\",\n                    \"path\":
+      \"<Keyboard>/s\",\n                    \"interactions\": \"\",\n                    \"processors\":
+      \"\",\n                    \"groups\": \"\",\n                    \"action\":
+      \"_Move\",\n                    \"isComposite\": false,\n                    \"isPartOfComposite\":
+      true\n                },\n                {\n                    \"name\": \"left\",\n
+      \                   \"id\": \"63eb488b-983a-4916-a388-deee4154a48b\",\n                    \"path\":
+      \"<Keyboard>/a\",\n                    \"interactions\": \"\",\n                    \"processors\":
+      \"\",\n                    \"groups\": \"\",\n                    \"action\":
+      \"_Move\",\n                    \"isComposite\": false,\n                    \"isPartOfComposite\":
+      true\n                },\n                {\n                    \"name\": \"right\",\n
+      \                   \"id\": \"56aa3027-5b87-4438-b288-0d8c2e7de6d4\",\n                    \"path\":
+      \"<Keyboard>/d\",\n                    \"interactions\": \"\",\n                    \"processors\":
+      \"\",\n                    \"groups\": \"\",\n                    \"action\":
+      \"_Move\",\n                    \"isComposite\": false,\n                    \"isPartOfComposite\":
+      true\n                },\n                {\n                    \"name\": \"\",\n
+      \                   \"id\": \"fb8b44d1-584f-4766-8ef2-e13aa3fafbcf\",\n                    \"path\":
+      \"<Keyboard>/q\",\n                    \"interactions\": \"\",\n                    \"processors\":
+      \"\",\n                    \"groups\": \"\",\n                    \"action\":
+      \"_Cancel\",\n                    \"isComposite\": false,\n                    \"isPartOfComposite\":
+      false\n                }\n            ]\n        }\n    ],\n    \"controlSchemes\":
+      []\n}"
+    m_IsDirty: 0
+  m_Toolbar:
+    m_IsDirty: 0
+    m_SelectedControlSchemeIndex: -1
+    m_SelectedDeviceRequirementIndex: -1
+    m_ControlSchemes: []
+    m_SearchText: 
+  m_DirtyTitle:
+    m_Text: (*) _PlayerControls (Input Actions)
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Title:
+    m_Text: _PlayerControls (Input Actions)
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+--- !u!114 &16
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Game
+    m_Image: {fileID: -2087823869225018852, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: -1522
+    y: 73
+    width: 968
+    height: 556
+  m_ViewDataDictionary: {fileID: 0}
+  m_VSyncEnabled: 0
+  m_MaximizeOnPlay: 0
+  m_Gizmos: 0
+  m_Stats: 0
+  m_SelectedSizes: 05000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_TargetDisplay: 0
+  m_ZoomArea:
+    m_HRangeLocked: 0
+    m_VRangeLocked: 0
+    hZoomLockedByDefault: 0
+    vZoomLockedByDefault: 0
+    m_HBaseRangeMin: -479
+    m_HBaseRangeMax: 479
+    m_VBaseRangeMin: -269.5
+    m_VBaseRangeMax: 269.5
+    m_HAllowExceedBaseRangeMin: 1
+    m_HAllowExceedBaseRangeMax: 1
+    m_VAllowExceedBaseRangeMin: 1
+    m_VAllowExceedBaseRangeMax: 1
+    m_ScaleWithWindow: 0
+    m_HSlider: 0
+    m_VSlider: 0
+    m_IgnoreScrollWheelUntilClicked: 0
+    m_EnableMouseInput: 1
+    m_EnableSliderZoomHorizontal: 0
+    m_EnableSliderZoomVertical: 0
+    m_UniformScale: 1
+    m_UpDirection: 1
+    m_DrawArea:
+      serializedVersion: 2
+      x: 0
+      y: 17
+      width: 968
+      height: 539
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 484, y: 269.5}
+    m_MarginLeft: 0
+    m_MarginRight: 0
+    m_MarginTop: 0
+    m_MarginBottom: 0
+    m_LastShownAreaInsideMargins:
+      serializedVersion: 2
+      x: -484
+      y: -269.5
+      width: 968
+      height: 539
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_TargetTexture: {fileID: 0}
+  m_CurrentColorSpace: 0
+  m_LastWindowPixelSize: {x: 968, y: 556}
+  m_ClearInEditMode: 1
+  m_NoCameraWarning: 1
+  m_LowResolutionForAspectRatios: 01000000000000000000
+  m_XRRenderMode: 0
+--- !u!114 &17
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12061, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Hierarchy
+    m_Image: {fileID: -590624980919486359, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: -1920
+    y: 73
+    width: 398
+    height: 556
+  m_ViewDataDictionary: {fileID: 0}
+  m_SceneHierarchy:
+    m_TreeViewState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: c0faffff6cfbffff
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 10}
+      m_SearchString: 
+    m_ExpandedScenes: []
+    m_CurrenRootInstanceID: 0
+    m_LockTracker:
+      m_IsLocked: 0
+    m_CurrentSortingName: TransformSorting
+  m_WindowGUID: b02dad5224f41834880273a518e3ec52
+--- !u!114 &18
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12013, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Scene
+    m_Image: {fileID: 2318424515335265636, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: -1522
+    y: 73
+    width: 968
+    height: 556
+  m_ViewDataDictionary: {fileID: 0}
+  m_ShowContextualTools: 0
+  m_WindowGUID: 1db84ab99cb7f2c468151450d9941d76
+  m_Gizmos: 0
+  m_SceneIsLit: 1
+  m_SceneLighting: 1
+  m_2DMode: 1
+  m_isRotationLocked: 0
+  m_PlayAudio: 0
+  m_AudioPlay: 0
+  m_Position:
+    m_Target: {x: -18.073742, y: 0.8551552, z: -9.225138}
+    speed: 2
+    m_Value: {x: -18.073742, y: 0.8551552, z: -9.225138}
+  m_RenderMode: 0
+  m_CameraMode:
+    drawMode: 0
+    name: Shaded
+    section: Shading Mode
+  m_ValidateTrueMetals: 0
+  m_DoValidateTrueMetals: 0
+  m_SceneViewState:
+    showFog: 1
+    showMaterialUpdate: 0
+    showSkybox: 1
+    showFlares: 1
+    showImageEffects: 1
+    showParticleSystems: 1
+  grid:
+    xGrid:
+      m_Target: 0
+      speed: 2
+      m_Value: 0
+    yGrid:
+      m_Target: 0
+      speed: 2
+      m_Value: 0
+    zGrid:
+      m_Target: 1
+      speed: 2
+      m_Value: 1
+  m_Rotation:
+    m_Target: {x: 0, y: 0, z: 0, w: 1}
+    speed: 2
+    m_Value: {x: 0, y: 0, z: 0, w: 1}
+  m_Size:
+    m_Target: 2.8655238
+    speed: 2
+    m_Value: 2.8655238
+  m_Ortho:
+    m_Target: 1
+    speed: 2
+    m_Value: 1
+  m_CameraSettings:
+    m_Speed: 1
+    m_SpeedNormalized: 0.48
+    m_SpeedMin: 0.01
+    m_SpeedMax: 2
+    m_EasingEnabled: 1
+    m_EasingDuration: 0.4
+    m_FieldOfView: 90
+    m_NearClip: 0.03
+    m_FarClip: 10000
+    m_DynamicClip: 1
+    m_OcclusionCulling: 0
+  m_ShowGlobalGrid: 1
+  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+  m_LastSceneViewOrtho: 0
+  m_ReplacementShader: {fileID: 0}
+  m_ReplacementString: 
+  m_SceneVisActive: 1
+  m_LastLockedObject: {fileID: 0}
+  m_ViewIsLockedToObject: 0
+--- !u!114 &19
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12914, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Animator
+    m_Image: {fileID: 663490763026382308, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: -1522
+    y: 73
+    width: 968
+    height: 556
+  m_ViewDataDictionary: {fileID: 0}
+  m_ViewTransforms:
+    m_KeySerializationHelper:
+    - {fileID: 3378930884470302117, guid: 3be074518ca91dc4b99b7e8fa543969c, type: 2}
+    - {fileID: 3463721296889939201, guid: fbde2546bf53fbb46a0b8b99da1f2ffe, type: 2}
+    - {fileID: 142806673562603704, guid: 71b82aea79938334fbeec34f05211ba4, type: 2}
+    - {fileID: 11001990061356151, guid: 162b53299f0d62d4cb814ed361315b13, type: 2}
+    m_ValueSerializationHelper:
+    - e00: 1
+      e01: 0
+      e02: 0
+      e03: -184
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 135.5
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 1
+      e01: 0
+      e02: 0
+      e03: 16
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 135.5
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.9370197
+      e01: 0
+      e02: 0
+      e03: 38.41993
+      e10: 0
+      e11: 0.9370197
+      e12: 0
+      e13: 73.98061
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  m_PreviewAnimator: {fileID: 0}
+  m_AnimatorController: {fileID: 9100000, guid: 162b53299f0d62d4cb814ed361315b13,
+    type: 2}
+  m_BreadCrumbs:
+  - m_Target: {fileID: 11001990061356151, guid: 162b53299f0d62d4cb814ed361315b13,
+      type: 2}
+    m_ScrollPosition: {x: 0, y: 0}
+  stateMachineGraph: {fileID: 0}
+  stateMachineGraphGUI: {fileID: 0}
+  blendTreeGraph: {fileID: 0}
+  blendTreeGraphGUI: {fileID: 0}
+  m_AutoLiveLink: 1
+  m_MiniTool: 0
+  m_LockTracker:
+    m_IsLocked: 0
+  m_CurrentEditor: 1
+  m_LayerEditor:
+    m_SelectedLayerIndex: 0
+--- !u!114 &20
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12014, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 230, y: 250}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_TitleContent:
+    m_Text: Project
+    m_Image: {fileID: -7501376956915960154, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: -1920
+    y: 648
+    width: 1368
+    height: 353
+  m_ViewDataDictionary: {fileID: 0}
+  m_SearchFilter:
+    m_NameFilter: 
+    m_ClassNames: []
+    m_AssetLabels: []
+    m_AssetBundleNames: []
+    m_VersionControlStates: []
+    m_SoftLockControlStates: []
+    m_ReferencingInstanceIDs: 
+    m_SceneHandles: 
+    m_ShowAllHits: 0
+    m_SearchArea: 1
+    m_Folders:
+    - Assets/Scenes
+  m_ViewMode: 1
+  m_StartGridSize: 64
+  m_LastFolders:
+  - Assets/Scenes
+  m_LastFoldersGridSize: -1
+  m_LastProjectPath: D:\Unity\One-Time Use
+  m_LockTracker:
+    m_IsLocked: 0
+  m_FolderTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 3c2f0000
+    m_LastClickedID: 12092
+    m_ExpandedIDs: 00000000782b000000ca9a3b
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_AssetTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 00000000782b0000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_ListAreaState:
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: c6230000de310000dadfffff402c0000e8240000cae3ffff10250000e22b00008c3000001c2e000000000000d4240000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 12}
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+    m_NewAssetIndexInList: -1
+    m_ScrollPosition: {x: 0, y: 0}
+    m_GridSize: 64
+  m_DirectoriesAreaWidth: 224
+--- !u!114 &21
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12003, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Console
+    m_Image: {fileID: 111653112392082826, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: -1920
+    y: 648
+    width: 1368
+    height: 353
+  m_ViewDataDictionary: {fileID: 0}
+--- !u!114 &22
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12071, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Animation
+    m_Image: {fileID: 1561878555887300916, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: -1920
+    y: 648
+    width: 1368
+    height: 353
+  m_ViewDataDictionary: {fileID: 0}
+  m_LockTracker:
+    m_IsLocked: 0
+  m_LastSelectedObjectID: -8516
+--- !u!114 &23
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12019, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Inspector
+    m_Image: {fileID: -6905738622615590433, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: -552
+    y: 73
+    width: 550
+    height: 928
+  m_ViewDataDictionary: {fileID: 0}
+  m_OpenAddComponentMenu: 0
+  m_ObjectsLockedBeforeSerialization: []
+  m_InstanceIDsLockedBeforeSerialization: 
+  m_LockTracker:
+    m_IsLocked: 0
+  m_PreviewResizer:
+    m_CachedPref: 160
+    m_ControlHash: -371814159
+    m_PrefName: Preview_InspectorPreview
+  m_PreviewWindow: {fileID: 0}
