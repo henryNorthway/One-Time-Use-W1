@@ -30,4 +30,9 @@ public class _PlayerAnimation : MonoBehaviour
     {
         _playerAnimator.SetBool("_isGrounded", _playerState);
     }
+
+    public void Dead(bool _playerState)
+    {
+        _playerAnimator.SetBool("_isDead", _playerState);
+    }
 }

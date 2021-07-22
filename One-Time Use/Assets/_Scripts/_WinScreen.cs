@@ -7,14 +7,19 @@ using UnityEngine.SceneManagement;
 public class _WinScreen : MonoBehaviour
 {
     public GameObject _winScreenUI;
-    public Button _placeholderButton;
+    private AudioSource _fanfare;
+
+    void Awake()
+    {
+        _fanfare = GetComponent<AudioSource>();
+    }
 
     public void WinScreen()
     {
         FindObjectOfType<_Player>().OnDisable();
         _winScreenUI.SetActive(true);
+        _fanfare.Play(0);
         Time.timeScale = 0f;
-        _placeholderButton.Select();
     }
 
     public void NextLevel()

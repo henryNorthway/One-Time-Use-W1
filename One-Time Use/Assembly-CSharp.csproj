@@ -56,11 +56,15 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\_InputAction.cs" />
+     <Compile Include="Assets\_Scripts\_DartFire.cs" />
      <Compile Include="Assets\_Scripts\_FollowPlayer.cs" />
+     <Compile Include="Assets\_Scripts\_Footsteps.cs" />
      <Compile Include="Assets\_Scripts\_MainMenu.cs" />
      <Compile Include="Assets\_Scripts\_PauseGame.cs" />
      <Compile Include="Assets\_Scripts\_Player.cs" />
      <Compile Include="Assets\_Scripts\_PlayerAnimation.cs" />
+     <Compile Include="Assets\_Scripts\_ResetCounter.cs" />
+     <Compile Include="Assets\_Scripts\_TimeManager.cs" />
      <Compile Include="Assets\_Scripts\_Trap.cs" />
      <Compile Include="Assets\_Scripts\_WinScreen.cs" />
  <Reference Include="Unity.Timeline.Editor">

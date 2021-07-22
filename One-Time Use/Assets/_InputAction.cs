@@ -27,17 +27,17 @@ public class @_InputAction : IInputActionCollection, IDisposable
                     ""interactions"": """"
                 },
                 {
-                    ""name"": ""_Interact"",
+                    ""name"": ""_Pause"",
                     ""type"": ""Button"",
-                    ""id"": ""4bea1938-34bf-473b-9f43-7a9e2200be1b"",
+                    ""id"": ""1d84117e-c693-459a-b145-027238ad8d64"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """"
                 },
                 {
-                    ""name"": ""_Pause"",
+                    ""name"": ""_Interact"",
                     ""type"": ""Button"",
-                    ""id"": ""b5adf790-823d-426e-a664-e7ccc21dc606"",
+                    ""id"": ""4bea1938-34bf-473b-9f43-7a9e2200be1b"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """"
@@ -175,23 +175,23 @@ public class @_InputAction : IInputActionCollection, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""a7373363-b2c1-4217-9b48-589dbae6be15"",
-                    ""path"": ""<Keyboard>/escape"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""_Pause"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
                     ""id"": ""5c188f37-35c9-4d09-bd06-176b25327e5b"",
                     ""path"": ""<Keyboard>/space"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
                     ""action"": ""_Jump"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""c0394b28-ba67-45b4-b04d-4b0d08aaddee"",
+                    ""path"": ""<Keyboard>/escape"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""_Pause"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -210,7 +210,7 @@ public class @_InputAction : IInputActionCollection, IDisposable
                     ""interactions"": """"
                 },
                 {
-                    ""name"": ""_Confirm"",
+                    ""name"": ""_Submit"",
                     ""type"": ""Button"",
                     ""id"": ""a6fb72e4-196e-4de5-85e3-1fc2c1f4ad8c"",
                     ""expectedControlType"": ""Button"",
@@ -218,9 +218,17 @@ public class @_InputAction : IInputActionCollection, IDisposable
                     ""interactions"": """"
                 },
                 {
-                    ""name"": ""_Cancel"",
+                    ""name"": ""_Point"",
+                    ""type"": ""PassThrough"",
+                    ""id"": ""747f42b3-a3ce-4e18-b439-8c679d65c05d"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """"
+                },
+                {
+                    ""name"": ""_Click"",
                     ""type"": ""Button"",
-                    ""id"": ""96543736-8628-4616-b06a-9b8850b5bb58"",
+                    ""id"": ""43a8d19c-04ab-4e7a-93b8-9310367f3268"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """"
@@ -234,7 +242,7 @@ public class @_InputAction : IInputActionCollection, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""_Confirm"",
+                    ""action"": ""_Submit"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -350,12 +358,23 @@ public class @_InputAction : IInputActionCollection, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""fb8b44d1-584f-4766-8ef2-e13aa3fafbcf"",
-                    ""path"": ""<Keyboard>/q"",
+                    ""id"": ""9427ebcc-e44d-4baa-aa20-5aae429bc257"",
+                    ""path"": ""*/{Point}"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""_Cancel"",
+                    ""action"": ""_Point"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""0e898cab-2bee-4589-8376-b30935f01cc7"",
+                    ""path"": ""<Mouse>/leftButton"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""_Click"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -367,14 +386,15 @@ public class @_InputAction : IInputActionCollection, IDisposable
         // _userActions
         m__userActions = asset.FindActionMap("_userActions", throwIfNotFound: true);
         m__userActions__Move = m__userActions.FindAction("_Move", throwIfNotFound: true);
-        m__userActions__Interact = m__userActions.FindAction("_Interact", throwIfNotFound: true);
         m__userActions__Pause = m__userActions.FindAction("_Pause", throwIfNotFound: true);
+        m__userActions__Interact = m__userActions.FindAction("_Interact", throwIfNotFound: true);
         m__userActions__Jump = m__userActions.FindAction("_Jump", throwIfNotFound: true);
         // _userInterface
         m__userInterface = asset.FindActionMap("_userInterface", throwIfNotFound: true);
         m__userInterface__Move = m__userInterface.FindAction("_Move", throwIfNotFound: true);
-        m__userInterface__Confirm = m__userInterface.FindAction("_Confirm", throwIfNotFound: true);
-        m__userInterface__Cancel = m__userInterface.FindAction("_Cancel", throwIfNotFound: true);
+        m__userInterface__Submit = m__userInterface.FindAction("_Submit", throwIfNotFound: true);
+        m__userInterface__Point = m__userInterface.FindAction("_Point", throwIfNotFound: true);
+        m__userInterface__Click = m__userInterface.FindAction("_Click", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -425,16 +445,16 @@ public class @_InputAction : IInputActionCollection, IDisposable
     private readonly InputActionMap m__userActions;
     private I_userActionsActions m__userActionsActionsCallbackInterface;
     private readonly InputAction m__userActions__Move;
-    private readonly InputAction m__userActions__Interact;
     private readonly InputAction m__userActions__Pause;
+    private readonly InputAction m__userActions__Interact;
     private readonly InputAction m__userActions__Jump;
     public struct _userActionsActions
     {
         private @_InputAction m_Wrapper;
         public _userActionsActions(@_InputAction wrapper) { m_Wrapper = wrapper; }
         public InputAction @_Move => m_Wrapper.m__userActions__Move;
-        public InputAction @_Interact => m_Wrapper.m__userActions__Interact;
         public InputAction @_Pause => m_Wrapper.m__userActions__Pause;
+        public InputAction @_Interact => m_Wrapper.m__userActions__Interact;
         public InputAction @_Jump => m_Wrapper.m__userActions__Jump;
         public InputActionMap Get() { return m_Wrapper.m__userActions; }
         public void Enable() { Get().Enable(); }
@@ -448,12 +468,12 @@ public class @_InputAction : IInputActionCollection, IDisposable
                 @_Move.started -= m_Wrapper.m__userActionsActionsCallbackInterface.On_Move;
                 @_Move.performed -= m_Wrapper.m__userActionsActionsCallbackInterface.On_Move;
                 @_Move.canceled -= m_Wrapper.m__userActionsActionsCallbackInterface.On_Move;
-                @_Interact.started -= m_Wrapper.m__userActionsActionsCallbackInterface.On_Interact;
-                @_Interact.performed -= m_Wrapper.m__userActionsActionsCallbackInterface.On_Interact;
-                @_Interact.canceled -= m_Wrapper.m__userActionsActionsCallbackInterface.On_Interact;
                 @_Pause.started -= m_Wrapper.m__userActionsActionsCallbackInterface.On_Pause;
                 @_Pause.performed -= m_Wrapper.m__userActionsActionsCallbackInterface.On_Pause;
                 @_Pause.canceled -= m_Wrapper.m__userActionsActionsCallbackInterface.On_Pause;
+                @_Interact.started -= m_Wrapper.m__userActionsActionsCallbackInterface.On_Interact;
+                @_Interact.performed -= m_Wrapper.m__userActionsActionsCallbackInterface.On_Interact;
+                @_Interact.canceled -= m_Wrapper.m__userActionsActionsCallbackInterface.On_Interact;
                 @_Jump.started -= m_Wrapper.m__userActionsActionsCallbackInterface.On_Jump;
                 @_Jump.performed -= m_Wrapper.m__userActionsActionsCallbackInterface.On_Jump;
                 @_Jump.canceled -= m_Wrapper.m__userActionsActionsCallbackInterface.On_Jump;
@@ -464,12 +484,12 @@ public class @_InputAction : IInputActionCollection, IDisposable
                 @_Move.started += instance.On_Move;
                 @_Move.performed += instance.On_Move;
                 @_Move.canceled += instance.On_Move;
-                @_Interact.started += instance.On_Interact;
-                @_Interact.performed += instance.On_Interact;
-                @_Interact.canceled += instance.On_Interact;
                 @_Pause.started += instance.On_Pause;
                 @_Pause.performed += instance.On_Pause;
                 @_Pause.canceled += instance.On_Pause;
+                @_Interact.started += instance.On_Interact;
+                @_Interact.performed += instance.On_Interact;
+                @_Interact.canceled += instance.On_Interact;
                 @_Jump.started += instance.On_Jump;
                 @_Jump.performed += instance.On_Jump;
                 @_Jump.canceled += instance.On_Jump;
@@ -482,15 +502,17 @@ public class @_InputAction : IInputActionCollection, IDisposable
     private readonly InputActionMap m__userInterface;
     private I_userInterfaceActions m__userInterfaceActionsCallbackInterface;
     private readonly InputAction m__userInterface__Move;
-    private readonly InputAction m__userInterface__Confirm;
-    private readonly InputAction m__userInterface__Cancel;
+    private readonly InputAction m__userInterface__Submit;
+    private readonly InputAction m__userInterface__Point;
+    private readonly InputAction m__userInterface__Click;
     public struct _userInterfaceActions
     {
         private @_InputAction m_Wrapper;
         public _userInterfaceActions(@_InputAction wrapper) { m_Wrapper = wrapper; }
         public InputAction @_Move => m_Wrapper.m__userInterface__Move;
-        public InputAction @_Confirm => m_Wrapper.m__userInterface__Confirm;
-        public InputAction @_Cancel => m_Wrapper.m__userInterface__Cancel;
+        public InputAction @_Submit => m_Wrapper.m__userInterface__Submit;
+        public InputAction @_Point => m_Wrapper.m__userInterface__Point;
+        public InputAction @_Click => m_Wrapper.m__userInterface__Click;
         public InputActionMap Get() { return m_Wrapper.m__userInterface; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -503,12 +525,15 @@ public class @_InputAction : IInputActionCollection, IDisposable
                 @_Move.started -= m_Wrapper.m__userInterfaceActionsCallbackInterface.On_Move;
                 @_Move.performed -= m_Wrapper.m__userInterfaceActionsCallbackInterface.On_Move;
                 @_Move.canceled -= m_Wrapper.m__userInterfaceActionsCallbackInterface.On_Move;
-                @_Confirm.started -= m_Wrapper.m__userInterfaceActionsCallbackInterface.On_Confirm;
-                @_Confirm.performed -= m_Wrapper.m__userInterfaceActionsCallbackInterface.On_Confirm;
-                @_Confirm.canceled -= m_Wrapper.m__userInterfaceActionsCallbackInterface.On_Confirm;
-                @_Cancel.started -= m_Wrapper.m__userInterfaceActionsCallbackInterface.On_Cancel;
-                @_Cancel.performed -= m_Wrapper.m__userInterfaceActionsCallbackInterface.On_Cancel;
-                @_Cancel.canceled -= m_Wrapper.m__userInterfaceActionsCallbackInterface.On_Cancel;
+                @_Submit.started -= m_Wrapper.m__userInterfaceActionsCallbackInterface.On_Submit;
+                @_Submit.performed -= m_Wrapper.m__userInterfaceActionsCallbackInterface.On_Submit;
+                @_Submit.canceled -= m_Wrapper.m__userInterfaceActionsCallbackInterface.On_Submit;
+                @_Point.started -= m_Wrapper.m__userInterfaceActionsCallbackInterface.On_Point;
+                @_Point.performed -= m_Wrapper.m__userInterfaceActionsCallbackInterface.On_Point;
+                @_Point.canceled -= m_Wrapper.m__userInterfaceActionsCallbackInterface.On_Point;
+                @_Click.started -= m_Wrapper.m__userInterfaceActionsCallbackInterface.On_Click;
+                @_Click.performed -= m_Wrapper.m__userInterfaceActionsCallbackInterface.On_Click;
+                @_Click.canceled -= m_Wrapper.m__userInterfaceActionsCallbackInterface.On_Click;
             }
             m_Wrapper.m__userInterfaceActionsCallbackInterface = instance;
             if (instance != null)
@@ -516,12 +541,15 @@ public class @_InputAction : IInputActionCollection, IDisposable
                 @_Move.started += instance.On_Move;
                 @_Move.performed += instance.On_Move;
                 @_Move.canceled += instance.On_Move;
-                @_Confirm.started += instance.On_Confirm;
-                @_Confirm.performed += instance.On_Confirm;
-                @_Confirm.canceled += instance.On_Confirm;
-                @_Cancel.started += instance.On_Cancel;
-                @_Cancel.performed += instance.On_Cancel;
-                @_Cancel.canceled += instance.On_Cancel;
+                @_Submit.started += instance.On_Submit;
+                @_Submit.performed += instance.On_Submit;
+                @_Submit.canceled += instance.On_Submit;
+                @_Point.started += instance.On_Point;
+                @_Point.performed += instance.On_Point;
+                @_Point.canceled += instance.On_Point;
+                @_Click.started += instance.On_Click;
+                @_Click.performed += instance.On_Click;
+                @_Click.canceled += instance.On_Click;
             }
         }
     }
@@ -529,14 +557,15 @@ public class @_InputAction : IInputActionCollection, IDisposable
     public interface I_userActionsActions
     {
         void On_Move(InputAction.CallbackContext context);
-        void On_Interact(InputAction.CallbackContext context);
         void On_Pause(InputAction.CallbackContext context);
+        void On_Interact(InputAction.CallbackContext context);
         void On_Jump(InputAction.CallbackContext context);
     }
     public interface I_userInterfaceActions
     {
         void On_Move(InputAction.CallbackContext context);
-        void On_Confirm(InputAction.CallbackContext context);
-        void On_Cancel(InputAction.CallbackContext context);
+        void On_Submit(InputAction.CallbackContext context);
+        void On_Point(InputAction.CallbackContext context);
+        void On_Click(InputAction.CallbackContext context);
     }
 }

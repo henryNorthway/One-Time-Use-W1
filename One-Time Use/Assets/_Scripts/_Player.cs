@@ -12,18 +12,21 @@ public class _Player : MonoBehaviour
 
     int _playerSpeed = 3;
     Vector2 _playerMove;
+    private AudioSource _deathSFX;
 
     float _turnSmoothTime = 0.1f;
     float _turnSmoothVelocity;
 
     public _PlayerAnimation _playerAnimator;
     public bool _isGrounded;
+    bool _isDead = false;
     bool _isNearby = false;
 
     public GameObject _floatingTextPrefab;
     private GameObject _floatingText;
 
     public _PauseGame _pauseMenu;
+    public _TimeManager _timeManager;
 
     void Awake()
     {
@@ -35,6 +38,8 @@ public class _Player : MonoBehaviour
 
         _playerControls._userActions._Move.performed += ctx => _playerMove = ctx.ReadValue<Vector2>();
         _playerControls._userActions._Move.canceled += ctx => _playerMove = Vector2.zero;
+
+        _deathSFX = GetComponent<AudioSource>();
     }
 
     void Start()
@@ -62,9 +67,9 @@ public class _Player : MonoBehaviour
             _playerAnimator.Moving(false);
         }
 
-        if (transform.position.y < -5)
+        if (transform.position.y < -5 && !_isDead)
         {
-            Respawn();
+            Death();
         }
 
         if (_isGrounded)
@@ -86,22 +91,25 @@ public class _Player : MonoBehaviour
             ShowFloatingText();
         }
 
-        if (_objectCollision.gameObject.tag == "Pressure Plate")
+        if (_objectCollision.gameObject.tag == "Pressure Plate" && _isGrounded)
         {
             FindClosestObject();
         }
 
-        if (_objectCollision.gameObject.tag == "Respawn")
+        if (_objectCollision.gameObject.tag == "Respawn" && !_isDead)
         {
-            Respawn();
+            Death();
         }
     }
 
     void OnTriggerExit(Collider _objectCollision)
     {
-        _isNearby = false;
+        if (_objectCollision.gameObject.tag == "Object" && _isNearby)
+        {
+            _isNearby = false;
 
-        DestroyFloatingText();
+            DestroyFloatingText();
+        }
     }
 
     void OnCollisionStay(Collision _objectCollision)
@@ -129,14 +137,9 @@ public class _Player : MonoBehaviour
 
     void Interact()
     {
-        if (_isNearby)
+        if (_isNearby && _isGrounded)
         {
-            //Debug.Log("The player has interacted with the object.");
             FindClosestObject();
-        }
-        else
-        {
-            //Debug.Log("The player is not close enough to any objects.");
         }
     }
 
@@ -169,10 +172,23 @@ public class _Player : MonoBehaviour
         _closestObject.TriggerTrap();
     }
 
-    void Respawn()
+    void Death()
     {
+        OnDisable();
+        _isDead = true;
+        _playerAnimator.Dead(true);
+        _deathSFX.Play(0);
+        _timeManager.SlowMotion();
+    }
+
+    public void Respawn()
+    {
+        OnEnable();
         transform.position = _initialPosition;
         transform.rotation = _initialRotation;
+        _ResetCounter._scoreValue += 1;
+        _isDead = false;
+        _playerAnimator.Dead(false);
     }
 
     void Pause()

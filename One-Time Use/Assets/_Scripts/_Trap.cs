@@ -10,19 +10,27 @@ public class _Trap : MonoBehaviour
     public _WinScreen _winScreen;
     public Animator _trapAnimator;
 
+    private AudioSource _trapSFX;
+
+    void Awake()
+    {
+        _trapSFX = GetComponent<AudioSource>();
+    }
+
     public void TriggerTrap()
     {
         switch (_trapName)
         {
             case "Trapdoor":
+                _trapSFX.Play(0);
                 Destroy(_trap);
                 _trapName = null;
                 break;
             case "Falling Block":
-                _trapAnimator.SetBool("_isTriggered", true);
+                PressurePlatePressed();
                 break;
             case "Darts":
-                _trapAnimator.SetBool("_isTriggered", true);
+                PressurePlatePressed();
                 break;
             default:
                 Destroy(this.gameObject);
@@ -30,5 +38,12 @@ public class _Trap : MonoBehaviour
                 _winScreen.WinScreen();
                 break;
         }
+    }
+
+    private void PressurePlatePressed()
+    {
+        //transform.Translate(Vector3.down * Time.deltaTime);
+        _trapAnimator.SetBool("_isTriggered", true);
+        _trapSFX.Play(0);
     }
 }
